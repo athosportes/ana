@@ -1,0 +1,26 @@
+package br.com.banco;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Cliente anaClara = new Cliente("Ana Clara", "11111111111", "1111111111", "senha");
+		ContaCorrente contaDaAnaClara = new ContaCorrente(10, 20, anaClara);
+		
+		double saldoContaAnaClara = contaDaAnaClara.getSaldo();
+		Cliente athosPortes = new Cliente("Athos Portes", "22222222222", "2222222222", "password");
+		ContaCorrente contaDoAthos = new ContaCorrente(10, 25, athosPortes);
+		//System.out.println(contaDoAthos);
+
+		
+		System.out.println("Total de contas criadas: " + saldoContaAnaClara);
+		
+		
+		System.out.println("Saldo da conta da Ana Clara: " + );
+		
+	
+	}
+
+}

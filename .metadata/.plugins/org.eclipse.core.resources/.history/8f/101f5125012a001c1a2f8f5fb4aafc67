@@ -1,0 +1,16 @@
+package br.com.banco;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ContaCorrente contaDaAnaClara = new ContaCorrente();
+		contaDaAnaClara.deposito(150);
+
+		
+//		System.out.println(contaDaAnaClara);
+		
+
+	}
+
+}

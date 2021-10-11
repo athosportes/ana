@@ -1,0 +1,24 @@
+package br.com.banco;
+
+public class Cliente extends Pessoa {
+
+	private String senha;
+
+	public Cliente(String nome, String cpf, String rg, String senha) {
+		super(nome, cpf, rg);
+	}
+
+	public String getSenha() {
+		return senha;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+	@Override
+	public String toString() {
+		return "Cliente [senha= " + senha + ", Nome= " + getNome() + ",Cpf = " + getCpf() + ",Rg= " + getRg() + "]";
+	}
+
+}

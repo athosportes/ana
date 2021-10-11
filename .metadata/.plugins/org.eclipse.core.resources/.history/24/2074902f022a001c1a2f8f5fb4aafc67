@@ -1,0 +1,30 @@
+package br.com.banco;
+
+public class Cliente extends Pessoa{
+
+	private String senha;
+
+	
+	public Cliente(String senha) {
+		super();
+		this.senha = senha;
+		// TODO Auto-generated constructor stub
+	}
+	
+
+	public Cliente (String senha, String nome) {
+		
+	}
+
+	public String getSenha() {
+		return senha;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+
+	
+	
+}

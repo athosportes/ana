@@ -1,0 +1,16 @@
+package br.com.banco;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Cliente anaClara = new Cliente("teste", "Ana Clara", "14535820708");
+		
+		ContaCorrente contaDaAnaClara = new ContaCorrente(10, 20, 0.0, anaClara);
+		
+//		System.out.println(contaDaAnaClara);
+		
+
+	}
+
+}

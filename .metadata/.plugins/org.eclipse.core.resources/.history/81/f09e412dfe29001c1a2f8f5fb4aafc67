@@ -1,0 +1,10 @@
+package br.com.banco;
+
+public abstract class Conta {
+	
+	private Integer agencia;
+	private Integer numeroConta;
+	private Double saldo;
+	private Cliente cliente;
+	
+}

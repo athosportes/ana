@@ -1,0 +1,17 @@
+package br.com.banco;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Cliente anaClara = new Cliente("Ana Clara", "11111111111", "1111111111", "senha");
+		ContaCorrente contaDaAnaClara = new ContaCorrente(10, 20, anaClara);
+		
+		System.out.println(contaDaAnaClara);
+		
+		contaDaAnaClara.deposito(125.80);
+
+		System.out.println(get.Saldo());
+	}
+
+}

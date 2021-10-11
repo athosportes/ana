@@ -1,0 +1,15 @@
+package br.com.banco;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Cliente anaClara = new Cliente("Ana Clara", "11111111111", "1111111111", "anjkhjhja");
+		
+		
+		System.out.println(anaClara);
+		
+
+	}
+
+}
